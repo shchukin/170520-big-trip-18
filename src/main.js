@@ -8,9 +8,9 @@ const tripEventsSortElement = document.querySelector('.trip-events__trip-sort');
 const tripEventsContent = document.querySelector('.trip-events__content');
 const listPresenter = new ListPresenter();
 
-/* Компоненты на своих местах */
+/* Компоненты в раме сайта */
 render(new TripFiltersView(), tripControlsFiltersElement);
 render(new TripSortView(), tripEventsSortElement);
 
-/* Компоненты временно отрендеренные в контейнер */
+/* Компоненты в теле сайта */
 listPresenter.init(tripEventsContent);
