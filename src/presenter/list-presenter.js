@@ -1,5 +1,5 @@
-import EventView from '../view/event.js';
-import EventEditView from '../view/event-edit.js';
+import EventView from '../view/event-view.js';
+import EventEditView from '../view/event-edit-view.js';
 import {render} from '../render.js';
 
 const listItemsAmount = 3;
