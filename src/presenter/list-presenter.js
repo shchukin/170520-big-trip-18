@@ -2,12 +2,11 @@ import EventView from '../view/event-view.js';
 import EventEditView from '../view/event-edit-view.js';
 import {render} from '../render.js';
 
-const listItemsAmount = 3;
-
 export default class ListPresenter {
 
   init = (listPresenterContext) => {
 
+    const listItemsAmount = 3;
 
     render(new EventEditView(), listPresenterContext);
 
